@@ -1,0 +1,19 @@
+{
+  "name": "my_api",
+  "version": "1.0.0",
+  "description": "python API for biblio-handling app",
+  "main": "main.py",
+  "scripts": {
+    "start": "flask run --reload -h 0.0.0.0 -p 5000",
+    "test": "pytest -q tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": " https://github.com/coderangel117/biblio-handling "
+  },
+  "keywords": [
+    "python",
+    "API",
+  ],
+  "license": "ISC"
+}
